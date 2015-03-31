@@ -1,0 +1,24 @@
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+
+
+public class Platform {
+	
+	private static final int WINDOW_WIDTH = 1200;
+	private static final int WINDOW_HEIGHT = 800;
+	
+	public static void main(String[] args) {
+		JFrame frame = new JFrame("Homework 5 Platform");
+		frame.setSize(WINDOW_WIDTH, WINDOW_HEIGHT);
+		
+		// List Panel
+		JPanel listPanel = new JPanel();
+		listPanel.setSize(WINDOW_WIDTH / 3, WINDOW_HEIGHT);		
+				
+		JPanel statusPanel = new JPanel();
+		JPanel executionPanel = new JPanel();
+		
+		frame.setVisible(true);
+	}
+
+}
